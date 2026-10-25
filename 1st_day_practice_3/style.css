@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:bisque;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin: 10px;
+}
+
+.blue-button:hover {
+    background-color: darkblue;
+}
+
+.heading {
+    color:blue;
+}
+
+#main-heading {
+    color: black;
+}
+
+.image1 {
+    display: block;
+    border-radius: 20px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 20px solid white;
+    border-color: white;
+}
+
+.profile-card {
+    background-color: floralwhite;
+    padding: 25px;
+    margin: 30px auto;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+.dark-mode {
+    background-color: black;
+    color:white;
+}
