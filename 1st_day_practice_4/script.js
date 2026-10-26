@@ -2,19 +2,22 @@ const button = document.getElementById("greetButton");
 const nameInput = document.getElementById("nameInput");
 const message = document.getElementById("message");
 
-button.addEventListener("click", function() {
-    const name = nameInput.value;
-    if(name.trim() === "") {
-        message.textContent = "Enter a name first!";
-    }
-    else {
-        message.textContent = "Hello, " + name + " this is my first web interactive project!";
-    }
-})
+function greetUser() {
+    const name = nameInput.value.trim();
 
-nameInput.addEventListener("keydown", function() {
-    const name = nameInput.value;
-    if(event.key === "Enter") {
-        message.textContent = "Hello, " + name + " this is my first web interactive project!";
+    if(name === "") {
+        message.textContent = "Enter a name first!";
+    } else {
+        message.textContent ="Hello, " + name + " this is my first web interactive project!";
     }
-})
+}
+
+button.addEventListener("click", function() {
+    greetUser();
+});
+
+nameInput.addEventListener("keydown", function(event) {
+    if(event.key === "Enter") {
+        greetUser();
+    }
+});
