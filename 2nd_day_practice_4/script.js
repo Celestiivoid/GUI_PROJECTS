@@ -37,9 +37,15 @@ for(let i = 0; i < number.length; i++) {
 //-----FOR-LOOPS-----//
 
 //-----FOR-OF-LOOPS-----//
-const services = ["Sublimation","Documents","B&W"];
+const services = ["Sublimation","Cup Printing","B&W"];
 
 for(const svc of services) {
-    console.log(svc);
+    console.log("Service: " + svc);
+}
+
+const n = [5,10,15,20];
+
+for(const nu of n) {
+    console.log(nu * 2);
 }
 //-----FOR-OF-LOOPS-----//
