@@ -17,9 +17,9 @@ const ft = ["Mango","Banana","Apple"];
 
 function ftsv(ftName) {
     if(ft.includes(ftName)) {
-        console.log(ftName + " is on stock!");
+        console.log(ftName + " is on stock!!");
     } else {
-        console.log(ftName + " is not on stock!");
+        console.log(ftName + " is not on stock!!");
     }
 }
 
