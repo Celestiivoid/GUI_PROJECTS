@@ -22,5 +22,3 @@ function ftsv(ftName) {
         console.log(ftName + " is not on stock!!");
     }
 }
-
-ftsv("Mango");
