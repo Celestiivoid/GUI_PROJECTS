@@ -35,11 +35,11 @@ const orders1 = [
     { customer: "Daniel", quantity: 20, price: 50 }
 ];
 
-
 orders1.forEach(function(ord) {
     const total = ord.price * ord.quantity;
 
     if(total >= 5000) {
-        console.log(ord.customer + ": $"+ total);
+        console.log(ord.customer + ":" + total);
     }
+    
 })
