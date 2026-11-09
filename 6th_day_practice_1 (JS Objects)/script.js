@@ -109,3 +109,16 @@ for(const ts8 of test8) {
         console.log("Name: " + ts8.name);
     }
 }
+
+const test9 = [
+    {name: "Joshua", department: "CITE"},
+    {name: "Pearl", department: "CITE"},
+    {name: "Jessie", department: "CEA"},
+    {name: "Mark", department: "COE"}
+];
+
+for(const ts9 of test9) {
+    if(ts9.department === "CITE") {
+        console.log("Name: " + ts9.name);
+    }
+}
