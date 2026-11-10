@@ -1,11 +1,11 @@
-
-/* keys */
 const test1 = {
     name: "Joshua",
     age: 19,
     course: "BSIT",
     department: "CITE"
 };
+
+/* keys */
 
 console.log(Object.keys(test1));
 
@@ -38,6 +38,7 @@ for(const [key, value] of Object.entries(test1)) {
 const entries = Object.entries(test1);
 
 /* key & values with typeof */
+
 for(const [key, value] of entries) {
     if(typeof value === "string") {
         console.log(`${key} : ${value}`);
