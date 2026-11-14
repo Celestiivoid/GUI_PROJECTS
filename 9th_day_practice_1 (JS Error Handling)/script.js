@@ -20,9 +20,9 @@ try {
     console.log(error.message);
 }
 
-let usernames = null
+/* let usernames = null
 
-console.log(usernames.length);
+console.log(usernames.length); */
 
 /* ================================================== */
 
@@ -54,7 +54,10 @@ try {
     console.log("Error: " + error.message);
 }
 
+const students = {
+    name: "Joshua",
+    age: 19,
+    department: "CITE"
+};
 
-let username = null
-
-console.log(username.length);
+console.table(students);
