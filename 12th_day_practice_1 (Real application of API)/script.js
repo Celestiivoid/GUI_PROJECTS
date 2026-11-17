@@ -110,4 +110,28 @@ const productList = products.map(pdt => {
 const double = products.map(pdt => pdt.price * 2);
 
 console.log(double);
-console.log(productList)
+console.log(productList);
+
+const check = products.filter(prd => prd.price > 1500).map(prd => prd.name.toUpperCase());
+
+console.log(check);
+
+const gradeList = [
+    {
+        name: "Joshua",
+        grade: 90
+    },
+    {
+        name: "Pearl",
+        grade: 95
+    },
+    {
+        name: "Mike",
+        grade: 75
+    }
+];
+
+
+const grList = gradeList.filter(gr => gr.grade >= 90);
+
+console.log(grList);
