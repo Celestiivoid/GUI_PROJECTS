@@ -72,5 +72,4 @@ async function fetchData(url) {
 
     return await response.json();
 }
-
-const datas = await fetchData("./products.json");
+/* const data = await fetchData("https://jsonplaceholder.typicode.com/users/2"); */
